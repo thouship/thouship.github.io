@@ -1,0 +1,114 @@
+<!DOCTYPE HTML>
+<html>
+	<title>Assignment 2</title>
+	<style>
+
+		body {
+ 		background-image: url("STARS.jpg");
+		 background-color: #cccccc;
+		}
+		#arialhotpink
+		{
+			background-color: #FF69B4;
+			font-family: arial;
+		}
+		#courierpink
+		{
+			background-color: pink;
+			font-family: courier;
+		}
+		#corsivalightpink
+		{
+			background-color: #FFB6C1;
+			font-family: coursiva;
+		}
+
+		#innerpage
+		{
+			align-content: center;
+			width: 80%;
+			position: relative;
+			left: 10%;
+			top: 10%;
+			background-color: grey;
+		}
+
+		ul
+		{
+			text-align: center;
+			background-color: black;
+		}
+		li
+		{
+			font-size: 1vw;
+			display: inline;
+			color: white;
+			border-style: solid;
+			border-color: black;
+			background-color: black;
+			padding-right: 30px;
+  			padding-left: 30px;
+		}
+		li:hover
+		{
+			cursor: pointer;
+			background-color: orange;
+		}
+		
+		iframe
+		{
+			position: relative;
+			border: 10px solid palevioletred;
+			width: 600px;
+			min-height : 300px;
+			height : 200px;
+			background-color: white;
+
+		}
+
+		#footer{
+			position: fixed;
+  			left: 0;
+			bottom: 0;
+			width: 100%;
+			background-color:black;
+			color: white;
+			text-align: center;
+			height: 5%;
+		}
+
+	</style>
+<body>
+	<div id="innerpage">
+		<div>
+			<ul>
+				<li>Home</li>
+				<li>About</li>
+				<li>Book</li>
+				<li>Contact</li>
+			</ul>
+			<iframe src = "assignment_one.html" title="Iframe"></iframe>
+		</div>
+		<br>
+		<div>
+			<img src = "nyc.jpg"/>
+
+			<div id = "arialhotpink">
+				This is the hotpink paragraph, font family is Arial
+			</div>
+			<div id = "courierpink">
+				This is the pink paragraph, font family is Courier
+			</div>
+			<div id = "corsivalightpink">
+				This is the lightpink paragraph, font family is Coursiva
+			</div>
+			<button onclick = "location.reload();">This is a button</button>
+
+			</div>
+		</div>
+	</div>
+	<div id = "footer">
+		study button, input,and textarea elements
+	</div>
+</body>
+</html>
