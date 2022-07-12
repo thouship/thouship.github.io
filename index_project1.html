@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+ 
+<html>
+ 
+<head>
+    <title>Simple web Development Template</title>
+ 
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+        
+        .contact{
+            width:25px;
+            height:25px;
+        }
+        .navbar {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            position: sticky;
+            top: 0;
+            cursor: pointer;
+        }
+ 
+        .background {
+            background-color: lightyellow;
+            background-blend-mode: darken;
+            background-size: cover;
+        }
+ 
+        .nav-list {
+            width: 70%;
+            display: flex;
+            align-items: center;
+        }
+ 
+        .logo {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+ 
+        .logo img {
+            width: 180px;
+            border-radius: 50px;
+        }
+ 
+        .nav-list li {
+            list-style: none;
+            padding: 26px 30px;
+        }
+ 
+        .nav-list li a {
+            text-decoration: none;
+            color: white;
+        }
+ 
+        .nav-list li a:hover {
+            color: grey;
+        }
+ 
+        .rightnav {
+            width: 30%;
+            text-align: right;
+        }
+ 
+        #search {
+            padding: 5px;
+            font-size: 17px;
+            border: 2px solid grey;
+            border-radius: 9px;
+        }
+ 
+        .firstsection {
+            background-color: lightcyan;
+            height: 400px;
+        }
+ 
+        .secondsection {
+            background-color: lightblue;
+            height: 400px;
+        }
+ 
+        .box-main {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: black;
+            max-width: 80%;
+            margin: auto;
+            height: 80%;
+        }
+ 
+        .firsthalf {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+ 
+        .secondhalf {
+            width: 30%;
+        }
+ 
+        .secondhalf img {
+            width: 70%;
+            border: 4px solid white;
+            border-radius: 150px;
+            display: block;
+            margin: auto;
+        }
+ 
+        .text-big {
+            font-family: 'Piazzolla', serif;
+            font-weight: bold;
+            font-size: 35px;
+        }
+ 
+        .text-small {
+            font-size: 18px;
+        }
+ 
+        .btn {
+            padding: 8px 20px;
+            margin: 7px 0;
+            border: 2px solid white;
+            border-radius: 8px;
+            background: none;
+            color: white;
+            cursor: pointer;
+        }
+ 
+        .btn-sm {
+            padding: 6px 10px;
+            vertical-align: middle;
+        }
+ 
+        .section {
+            height: 400px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            max-width: 90%;
+            margin: auto;
+        }
+ 
+        .section-Left {
+            flex-direction: row-reverse;
+        }
+ 
+        .paras {
+            padding: 0px 65px;
+        }
+ 
+        .thumbnail img {
+            width: 250px;
+            border: 2px solid black;
+            border-radius: 26px;
+            margin-top: 19px;
+        }
+ 
+        .center {
+            text-align: center;
+        }
+ 
+        .text-footer {
+            text-align: center;
+            padding: 30px 0;
+            font-family: 'Ubuntu', sans-serif;
+            display: flex;
+            justify-content: center;
+            color: black;
+        }
+
+        h1{
+            width: 1200;
+            text-align: center;
+        }
+
+        img
+        {
+            width:300px;
+            height:100px;
+        }
+    </style>
+</head>
+ 
+<body>
+    <nav class="navbar background">
+        <ul class="nav-list">
+            <div class="logo">
+                <img src= "images/logos/logo.png">
+
+            </div>
+
+        </ul>
+ 
+        <div class="logo">
+            <img src= "images/photos/iceland.jpg">
+        </div>
+    </nav>
+    <h1>Iceland</h1>
+    <i>  Iceland is a country of sharp contrasts. A place where fire and ice co-exist. Where dark winters are offset by the summer's midnight sun. A country where insular existence has spurred a rich and vibrant culture.</i>
+    <section class="firstsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h1 class="text-big" id="web">Things to do in Iceland</h1>
+                <img src="images/photos/northern1.jpeg"align="left">
+                <p class="text-small">
+                The Aurora Borealis takes its name from the Roman godess of dawn, Aurora, and
+                the Greek name for the north wind, Boreas. From September to April, Iceland is a hotspot for this magnificent lightshow.
+                <br>
+                The Aurora Borealis, more commonly referred to as the Northern Lights is a natural phenomenon created when particles emitted by the sun interact with the atmosphere in the Earth's magnetic fiel. This releases energy, causing peculiar luminous green streaks accross the skies. 
+                <br>
+                <img src="images/photos/iceland1.jpg"align="right">
+                <br>
+                When making a trip to Iceland, it is hard not to pay special attention to the country's namesake-namely, its 4,500 square miles of glacier. Ice climbing on the glaciers is practiced year round and takes place mainly on the Sólheimajökull and Svínafellsjökull glaciers in the south of Iceland, to which day trips are offered from Reykjavik (and Skaftafell) 
+                
+            </p>
+
+            </div>
+        </div>
+    </section>
+ 
+    <section class="secondsection">
+        <div class="box-main">
+            <div class="firstHalf">
+                <h3>Upcoming Events</h3>
+                <ul>
+                  <li><a href="#" alt="Events Link1">Eistnaflug Rock Festival</a></li>
+                  <li><a href="#" alt="Events Link2">Laugavegur Ultra Marathon</a></li>
+                </ul>
+                <br>
+                <br>
+                <br>
+                <h1>Newsfeed</h1>
+                <b><i>Norse mythology published as divination cards</i></b>
+                <br>
+                LLewellyn Publications will be publishing 81-card divination deck bringing the wisdom of Norse mythology to life.       
+                    <br>
+                <b><i></i>Hollywood Reporter and Screen Daily give Icelandic director Elfar Aóalsteinsson great reviews</i></b>
+                End of Sentence, by director Elfar Aóalsteinsson, receives very positive reviews in leading film industry magazines such as Hollywood. The film's two leading actors, John Hawkes and Logan Lerman, are also praised in both reviews. Hawkes has quite a few films under his belt and was nominated for an Oscar for Winter's Bones and young Lerman is best known for his role in The Perks of Being a Wallflower. Icelandic actor Ólafur Darri Ólafsson also has a small part in End of Sentence.
+            <br>
+            <br>
+            <br>
+    </section>
+    
+    <section class="section">
+        <div class="paras">
+            <br>
+
+
+            <h1 class="sectionTag text-big">How Much Does and Iceland Trip Cost?</h1>
+
+            <div>
+                  <table>
+                    <thead>
+                    <tr style="background-color:lightgreen">
+                      <th></th>
+                      <th>Price</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>Ticket from JFK</td>
+                      <td style="background-color:lightcoral">$1100</td>
+                    </tr>
+                    <tr>
+                      <td>Hotel for 2 per night</td>
+                      <td>$150</td>
+                    </tr>
+                    <tr>
+                      <td>Food per person per day</td>
+                      <td>$80</td>
+                    </tr>
+                    <tr>
+                      <td>Attractions and Activities per person</td>
+                      <td>$200</td>
+                    </tr>
+                  </tbody>
+                  <tfoot>
+                    <tr style="background-color:lightgreen">
+                      <th>Total Cost per day per person</th>
+                      <th>$430</th>
+                    </tr>
+                  </tfoot>
+                  </table>
+              <hr>
+              
+              <div>
+            <p class="sectionSubTag text-small">
+                <h3>Contact Us</h3>
+                <div>
+              <img src="images/logos/phone.png" class="contact alt="Phone" align="left"><a href="#">1(800)-999-9999</a>
+              </div>
+              <Br>
+              <div>
+              <img src="images/logos/email.png" class="contact alt="Email" align="left"><p>Email to:<a href="mailto:"sample@gmail.com">Farhanul Thouship</a>
+              </div>
+              <Br>
+              <div>
+              <img src="images/logos/instagram.png" class="contact alt="IG" align="left"><a href="https:instagram.com">Follow us at Instagram</a>
+              </div>
+            </p>
+ 
+ 
+        </div>
+
+    </section>
+ 
+    <footer class="background">
+        <p class="text-footer">
+            <a href="index_project1.html">Home</a>
+            &nbsp;
+            &nbsp;
+            <a href="northernlights.html">The Northern Lights</a>
+            &nbsp;
+            &nbsp;
+            <a href="hiking.html">Hiking on Glaciers</a>
+            &nbsp;
+            &nbsp;
+            <a href="index_project1.html">Contact Us</a
+        </p>
+
+    </footer>
+</body>
+ 
+</html>
